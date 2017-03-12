@@ -1,0 +1,7 @@
+<div class="input-box">
+           <input type="text" #username>
+</div>
+<div class="input-box">
+        <input type="text" #password>
+</div>
+<button (click)="login(username.value, password.value)">登录</button>
